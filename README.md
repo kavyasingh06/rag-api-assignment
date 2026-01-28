@@ -1,6 +1,6 @@
 # RAG-Based Question Answering API
 
-A lightweight, asynchronous Retrieval-Augmented Generation (RAG) API built with FastAPI, FAISS, and Google Gemini. It allows users to upload PDF/TXT documents and ask questions based on their content.
+A lightweight, asynchronous Retrieval-Augmented Generation (RAG) API built with FastAPI, FAISS, and Google Gemini. It allows users to upload PDF/TXT documents and ask questions based on those documents.
 
 ## 🏗️ Architecture
 The system uses an asynchronous pipeline for document ingestion and a synchronous pipeline for retrieval and generation.
@@ -65,4 +65,3 @@ Run the Server:
 Bash
 uvicorn app.main:app --reload
 Access the API: Open your browser to: http://127.0.0.1:8000/docs
-

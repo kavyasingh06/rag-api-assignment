@@ -65,3 +65,4 @@ Run the Server:
 Bash
 uvicorn app.main:app --reload
 Access the API: Open your browser to: http://127.0.0.1:8000/docs
+
